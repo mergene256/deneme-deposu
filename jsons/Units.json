@@ -1,17 +1,42 @@
 [
-	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
+  {
+    "name": "Phasers",
+    "unitType": "Ranged",
+    "uniqueTo": "Aliens",
+    "replaces": "Machine Gun",
+    "movement": 2,
+    "strength": 90,
+    "rangedStrength": 36,
+    "range": 2,
+    "cost": 500,
+    "requiredTech": "Ballistics",
+    "requiredResource": "Uranium",
+    "promotions": ["Logistics","Accuracy I"],
+    "attackSound": "phasers"
+  },
+  {
+    "name": "Qin Chariot",
+    "uniqueTo": ["Qin"],
+    "replaces": "Chariot Archer",
+    "strength": 7,
+    "rangedStrength": 9,
+    "movement": 3,
+    "cost": 60,
+    "requiredTech": "The Wheel",
+    "prereqCivTech": null,
+    "uniques": [
+      "[+1] Sight",
+      "Can move after attacking",
+      "Limited visibility in [Forest] terrain",
+      "Unlocks at [The Wheel]",
+      "[+15]% Combat bonus for adjacent [Great General]",
+      "Earns bonus [Great General] points when killing [unit]"
+    ],
+    "tags": ["Mounted", "Ranged", "Military"],
+    "icon": {
+        "x": 0,
+        "y": 0,
+        "name": "QinChariot"
+    }
+  }
 ]
